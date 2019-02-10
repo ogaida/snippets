@@ -1,5 +1,7 @@
-```ruby
-3.times do
-  puts "hello world"
-end
+```yaml
+- hosts:
+  - lokal
+  tasks:
+    - name: Create a directory
+      file: path=hello_world state=directory
 ```
