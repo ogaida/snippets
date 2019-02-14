@@ -1,3 +1,6 @@
+
+Das ist ein simples Playbook-Beispiel:
+
 ```yaml
 - hosts:
   - lokal
@@ -6,3 +9,4 @@
       file: path=hello_world state=directory
     # jetzt schreibe ich eine sehr lange ZEILE und schaue, ob ich hier scrollen kann.
 ```
+
