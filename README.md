@@ -12,3 +12,4 @@ ein einfaches Playbook:
     # jetzt schreibe ich eine sehr lange ZEILE und schaue, ob ich hier scrollen kann.
 ```
 
+read about github-pages here [./README-jekyll](./README-jekyll)
