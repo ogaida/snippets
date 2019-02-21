@@ -1,7 +1,7 @@
 
 # Ansible hello world
 
-Das ist ein simples Playbook-Beispiel:
+ein einfaches Playbook:
 
 ```yaml
 - hosts:
