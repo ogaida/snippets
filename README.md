@@ -1,5 +1,5 @@
 
-# Ansible 123
+# Ansible hello world
 
 Das ist ein simples Playbook-Beispiel:
 
