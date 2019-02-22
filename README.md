@@ -14,4 +14,4 @@ ein einfaches Playbook:
 
 read about github-pages here [./README-jekyll](./README-jekyll)
 
-Einen schönen Tag noch :-)
+Einen schönen Tag noch.
