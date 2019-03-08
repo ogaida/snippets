@@ -16,4 +16,5 @@ read about github-pages here [./README-jekyll](./README-jekyll)
 
 # more
 
-- [./Conditionals.html](./Conditionals.html)
+- [conditionals](./Conditionals.html)
+- [windows](./windows.html)
