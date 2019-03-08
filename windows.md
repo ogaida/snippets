@@ -24,3 +24,5 @@ also [hier](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-
 
 Das win_lineinfile Module ersetzt intern die `/` im Pfad durch `\`, dadurch funktioniert das schon mal. Ein `\`-Zeichen dient sehr
 oft dem maskieren von speziellen Zeichen. Die hier verwendete Variante schliesst also aus, dass sonderbare Dinge passieren.
+
+[HOME](./)
