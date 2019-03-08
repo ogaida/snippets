@@ -1,14 +1,11 @@
 ## Einträge aus einer Textdatei entfernen
 
 ```yaml
-  - name: Server aus hosts Datei entfernen
+  - name: String aus hosts Datei entfernen
     win_lineinfile:
       path: 'C:/mypath/123/filename'
-      regexp: "(?i:({{ item }}))"
+      regexp: "(?i:String)"
       state: absent
-    with_items:
-      - string1
-      - string2
 ```
 
 #### Erläuterungen dazu
