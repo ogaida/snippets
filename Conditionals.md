@@ -24,3 +24,5 @@ tasks:
 - shell: echo "motd contains the word hi"
         when: motd_contents.stdout.find('hi') != -1
 ```
+
+[Home](./)
