@@ -4,15 +4,13 @@ escape_code: true
 
 ## Einträge aus einer Textdatei entfernen
 
-{% raw %}
 ```yaml
   - name: String aus hosts Datei entfernen
     win_lineinfile:
       path: 'C:/mypath/123/filename'
-      regexp: "(?i:{{ String }})"
+      regexp: "(?i:String)"
       state: absent
 ```
-{% endraw %}
 
 #### Erläuterungen dazu
 
