@@ -4,6 +4,7 @@ escape_code: true
 
 ## Einträge aus einer Textdatei entfernen
 
+{% raw %}
 ```yaml
   - name: String aus hosts Datei entfernen
     win_lineinfile:
@@ -11,6 +12,7 @@ escape_code: true
       regexp: "(?i:{{ String }})"
       state: absent
 ```
+{% endraw %}
 
 #### Erläuterungen dazu
 
