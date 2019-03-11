@@ -1,7 +1,3 @@
----
-escape_code: true
----
-
 ## Einträge aus einer Textdatei entfernen
 
 ```yaml
