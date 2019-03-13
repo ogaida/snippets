@@ -1,4 +1,4 @@
-# Kommentare und leere Zeile ausblenden
+# Kommentare und leere Zeilen ausblenden
 
 ```
 grep -vP '^(\s*#.*|\s*)$'
