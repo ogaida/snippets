@@ -18,5 +18,6 @@ read about github-pages here [./README-jekyll](./README-jekyll)
 
 - [conditionals](./Conditionals.html)
 - [windows](./windows.html)
+- [bash](./bash.html)
 
 Diese Seite findest Du auf [https://jekyll.schnatzefatt.de/](https://jekyll.schnatzefatt.de/)
