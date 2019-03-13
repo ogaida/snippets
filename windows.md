@@ -1,8 +1,11 @@
 ---
-title: ansible for windows
+title: Ansible in Windows
 ---
 
-## Einträge aus einer Textdatei entfernen
+# Ansible in Windows
+
+
+### Einträge aus einer Textdatei entfernen
 
 <!--{% raw %} -->
 
