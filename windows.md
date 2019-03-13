@@ -1,6 +1,6 @@
 ## Einträge aus einer Textdatei entfernen
 
-<!— {% raw %} —>
+<!--{% raw %} -->
 
 ```yaml
   - name: String aus hosts Datei entfernen
@@ -10,7 +10,7 @@
       state: absent
 ```
 
-<!— {% endraw %} —>
+<!--{% endraw %} -->
 
 #### Erläuterungen dazu
 
