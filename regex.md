@@ -8,7 +8,7 @@ Naheliegend und gut lesbar ist:
 ^(Oliver|Oliver Gaida)$
 ```
 
-Interessanter ist die folgende Variant, die dann auch Sinn macht wenn die Strings länger werden:
+Interessanter ist die folgende Variante, die dann auch Sinn macht, wenn die Strings länger werden:
 
 ```regex
 ^Oliver(?m: Gaida)?$
