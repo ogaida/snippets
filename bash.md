@@ -6,7 +6,7 @@ grep -vP '^(\s*#.*|\s*)$'
 
 [HOME](./)
 
-# zufällig Additionsaufgaben generieren
+# zufällig Subtraktionsaufgaben generieren
 
 ```
 $ for a in $(seq 10); do paste -d '-=' <(seq 8704 -29 1454) <(seq 613 12 3613) <(seq 8091 -41 -2179) | sed -n $(( RANDOM % 250 ))p; done
