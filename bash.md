@@ -1,10 +1,10 @@
+[HOME](./)
+
 # Kommentare und leere Zeilen ausblenden
 
 ```
 grep -vP '^(\s*#.*|\s*)$'
 ```
-
-[HOME](./)
 
 # zufällig Subtraktionsaufgaben generieren
 
@@ -21,3 +21,12 @@ $ for a in $(seq 10); do paste -d '-=' <(seq 8704 -29 1454) <(seq 613 12 3613) <
 6152-1669=4483
 6587-1489=5098
 ```
+
+
+
+
+
+
+
+
+[HOME](./)
