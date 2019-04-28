@@ -3,6 +3,8 @@
 
 Ein paar CODE-Schnipsel zum stöbern.
 
+Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von github gut unterstützt, wodurch es relativ einfach ist, hier Informationen zu veröffentlichen.
+
 # more
 
 |--|--|--|
@@ -10,4 +12,6 @@ Ein paar CODE-Schnipsel zum stöbern.
 |[regex](./regex.html)|[jekyll](./jekyll.html)||
 
 
-Diese Seite findest Du auf [http://snippets.schnatzefatt.de/](http://snippets.schnatzefatt.de/)
+## Demo
+
+[http://snippets.schnatzefatt.de/](http://snippets.schnatzefatt.de/)
