@@ -10,4 +10,4 @@ Ein paar CODE-Schnipsel zum stöbern.
 |[regex](./regex.html)|[jekyll](./jekyll.html)||
 
 
-Diese Seite findest Du auf [https://snippets.schnatzefatt.de/](https://snippets.schnatzefatt.de/)
+Diese Seite findest Du auf [http://snippets.schnatzefatt.de/](http://snippets.schnatzefatt.de/)
