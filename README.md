@@ -1,9 +1,7 @@
 
 # Snippets
 
-Hier sammle ich ein paar Schnipsel für Unterwegs...
-
-read about github-pages here [./README-jekyll](./README-jekyll)
+Ein paar CODE-Schnipsel zum stöbern.
 
 # more
 
@@ -12,4 +10,4 @@ read about github-pages here [./README-jekyll](./README-jekyll)
 |[regex](./regex.html)|[jekyll](./jekyll.html)||
 
 
-Diese Seite findest Du auf [https://jekyll.schnatzefatt.de/](https://jekyll.schnatzefatt.de/)
+Diese Seite findest Du auf [https://snippets.schnatzefatt.de/](https://snippets.schnatzefatt.de/)
