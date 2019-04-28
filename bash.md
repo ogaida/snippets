@@ -2,13 +2,13 @@
 
 # Kommentare und leere Zeilen ausblenden
 
-```
+```bash
 grep -vP '^(\s*#.*|\s*)$'
 ```
 
 # zufällig Subtraktionsaufgaben generieren
 
-```
+```bash
 $ for a in $(seq 10); do paste -d '-=' <(seq 8704 -29 1454) <(seq 613 12 3613) <(seq 8091 -41 -2179) | sed -n $(( RANDOM % 250 ))p; done
 3658-2701=957
 1541-3577=-2036
