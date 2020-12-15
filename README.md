@@ -17,11 +17,11 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
         {% for cat in site.categories %}
         <li>
                 {% assign cat_name = cat[0] %}
-                <h2> Category __{{ cat_name }}__ </h2>
+                <h2> Category {{ cat_name }} </h2>
                 <ul>
                 {% for post in site.categories[cat_name] %}
                     <li>
-                    <a href="./{{ cat_name }}/{{ post.title }}">{{ post.title }}</a>
+                    <a href="./{{ cat_name }}/{{ post.myid }}">{{ post.title }}</a>
                     </li>
                 {% endfor %}
                 </ul>
