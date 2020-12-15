@@ -16,15 +16,7 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 <ul>
         {% for cat in site.categories %}
         <li>
-                {% assign cat_name = cat[0] %}
-                <h2> Category {{ cat_name }} </h2>
-                <ul>
-                {% for post in site.categories[cat_name] %}
-                    <li>
-                    <a href="./{{ cat_name }}/{{ post.id }}">{{ post.title }}</a>
-                    </li>
-                {% endfor %}
-                </ul>
+                {{cat}}
         </li>
         {% endfor %}
 </ul>
