@@ -13,13 +13,18 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 
 # posts
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url.gsub!(/\.html$/,'') }}">{{ post.title }}</a>
-    </li>
+
+  {% for cat in site.categories %}
+    ## Category __{{ cat }}__
+    <ul>
+    {% for post in site.category[cat].posts %}
+        <li>
+        <a href="./{{ cat }}/{{ post.title }}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
   {% endfor %}
-</ul>
+
 
 ## Demo
 
