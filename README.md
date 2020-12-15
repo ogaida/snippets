@@ -16,11 +16,11 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
     <div id="#{{ category_name | slugize }}"></div>
     <p></p>
 
-    <h3 class="category-head">{{ category_name }}</h3>
+    <h2 class="category-head">{{ category_name }}</h2>
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
     <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
     </article>
     {% endfor %}
   </div>
