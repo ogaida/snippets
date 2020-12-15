@@ -5,13 +5,7 @@ Ein paar CODE-Schnipsel zum stöbern.
 
 Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von github gut unterstützt, wodurch es relativ einfach ist, hier Informationen zu veröffentlichen.
 
-# more
-
-|--|--|--|
-| [conditionals](./Conditionals.html)| [windows](./windows.html) | [bash](./bash.html) |
-|[regex](./regex.html)|[jekyll](./jekyll.html)|[ruby](./ruby)|
-
-# Categories
+# Kategorien
 
 <!-- found here https://blog.webjeda.com/jekyll-categories/ -->
 
