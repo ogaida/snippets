@@ -1,5 +1,10 @@
-# Negation
+---
+title:  "Conditionals in Ansible"
+category: ansible
+author: Oliver Gaida
+---
 
+# Negation
 
 ```yaml
 - shell: echo "This certainly isn't epic!"
@@ -24,4 +29,3 @@
   when: motd_contents.stdout.find('hi') != -1
 ```
 
-[Home](./)
