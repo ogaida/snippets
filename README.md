@@ -21,7 +21,7 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
                 <ul>
                 {% for post in site.categories[cat_name] %}
                     <li>
-                    <a href="./{{ cat_name }}/{{ post.myid }}">{{ post.title }}</a>
+                    <a href="./{{ cat_name }}/{{ post.id }}">{{ post.title }}</a>
                     </li>
                 {% endfor %}
                 </ul>
