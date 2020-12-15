@@ -9,7 +9,7 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 
 |--|--|--|
 | [conditionals](./Conditionals.html)| [windows](./windows.html) | [bash](./bash.html) |
-|[regex](./regex.html)|[jekyll](./jekyll.html)||
+|[regex](./regex.html)|[jekyll](./jekyll.html)|[ruby](./ruby)|
 
 
 ## Demo
