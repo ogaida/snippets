@@ -16,7 +16,7 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url.gsub!(/\.html$/,'') }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
