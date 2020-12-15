@@ -13,6 +13,8 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 
 # Categories
 
+<!-- found here https://blog.webjeda.com/jekyll-categories/ -->
+
 <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
@@ -33,4 +35,4 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 
 ## Demo
 
-[http://snippets.schnatzefatt.de/](http://snippets.schnatzefatt.de/)
+[https://snippets.schnatzefatt.de/](https://snippets.schnatzefatt.de/)
