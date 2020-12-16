@@ -1,8 +1,3 @@
----
-layout: default
----
-
-
 # Snippets
 
 Ein paar CODE-Schnipsel zum stöbern.
