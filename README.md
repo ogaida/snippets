@@ -9,22 +9,14 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 
 <!-- found here https://blog.webjeda.com/jekyll-categories/ -->
 
-<div id="archives">
 {% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h2 class="category-head">{{ category_name }}</h2>
-    <a name="{{ category_name | slugize }}"></a>
+  {% capture category_name %}{{ category | first }}{% endcapture %}
+    <h4 class="category-head">{{ category_name }}</h4>
+    <ul>
     {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
-    </article>
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
     {% endfor %}
-  </div>
+    </ul>
 {% endfor %}
-</div>
 
 [https://snippets.schnatzefatt.de/](https://snippets.schnatzefatt.de/)
