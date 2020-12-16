@@ -11,12 +11,10 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 
 {% for category in site.categories %}
   {% capture category_name %}{{ category | first }}{% endcapture %}
-    <h4 class="category-head">{{ category_name }}</h4>
-    <ul>
+    ## {{ category_name }}
     {% for post in site.categories[category_name] %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+      - [{{ site.baseurl }}{{ post.url }}]({{post.title}})
     {% endfor %}
-    </ul>
 {% endfor %}
 
 [https://snippets.schnatzefatt.de/](https://snippets.schnatzefatt.de/)
