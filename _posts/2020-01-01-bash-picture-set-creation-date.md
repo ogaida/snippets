@@ -6,7 +6,7 @@ category:
 author: Oliver Gaida
 ---
 
-# Dateidatum auf das originale Erstellungsdatum/Änderungsdatum des Bilder bzw. Videos ändern
+# Dateidatum auf das originale Erstellungsdatum/Änderungsdatum des Bildes bzw. Videos ändern
 
 Voraussetzung: 
 
