@@ -1,5 +1,5 @@
 ---
-title:  "Erzeugen von Subtraktionsaufgaben"
+title:  "create random math problems"
 category: bash
 author: Oliver Gaida
 ---
