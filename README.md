@@ -8,7 +8,8 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 
 <!-- found here https://blog.webjeda.com/jekyll-categories/ -->
 
-{% for category in site.categories %}
+{% assign sorted_site_categories = site.categories | sort %}
+{% for category in sorted_site_categories %}
 {% capture category_name %}{{ category | first }}{% endcapture %}
 ## {{ category_name }}
 {% for post in site.categories[category_name] %}
