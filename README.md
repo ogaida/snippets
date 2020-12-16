@@ -13,7 +13,8 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 {% capture category_name %}{{ category | first }}{% endcapture %}
 ## {{ category_name }}
 {% for post in site.categories[category_name] %}
-- [{{post.title}}]({{ site.baseurl }}{{ post.url }})
+<!-- - [{{post.title}}]({{ site.baseurl }}{{ post.url }}) -->
+<a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
 {% endfor %}
 {% endfor %}
 
