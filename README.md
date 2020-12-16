@@ -14,11 +14,11 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 <!-- found here https://blog.webjeda.com/jekyll-categories/ -->
 
 {% for category in site.categories %}
-  {% capture category_name %}{{ category | first }}{% endcapture %}
-    ## {{ category_name }}
-    {% for post in site.categories[category_name] %}
-      - [{{ site.baseurl }}{{ post.url }}]({{post.title}})
-    {% endfor %}
+{% capture category_name %}{{ category | first }}{% endcapture %}
+## {{ category_name }}
+{% for post in site.categories[category_name] %}
+- [{{ site.baseurl }}{{ post.url }}]({{post.title}})
+{% endfor %}
 {% endfor %}
 
 [https://snippets.schnatzefatt.de/](https://snippets.schnatzefatt.de/)
