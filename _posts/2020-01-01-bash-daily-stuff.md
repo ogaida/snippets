@@ -2,7 +2,7 @@
 title:  "daily stuff"
 category: bash
 author: Oliver Gaida
-version: 2
+version: 3
 ---
 
 # Kommentare und leere Zeilen ausblenden
