@@ -2,6 +2,7 @@
 title:  "create random math problems"
 category: bash
 author: Oliver Gaida
+version: 1
 ---
 
 # zufällig Subtraktionsaufgaben generieren

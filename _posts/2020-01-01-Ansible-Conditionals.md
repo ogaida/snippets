@@ -2,6 +2,7 @@
 title:  "Conditionals in Ansible"
 category: ansible
 author: Oliver Gaida
+version: 1
 ---
 
 # Negation

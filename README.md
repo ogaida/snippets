@@ -15,7 +15,7 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 <ul>
 {% for post in site.categories[category_name] %}
 <!-- - [{{post.title}}]({{ site.baseurl }}{{ post.url }}) -->
-<li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+<li><a href="{{ site.baseurl }}{{ post.url }}?version={post.version}">{{post.title}}</a></li>
 {% endfor %}
 </ul>
 {% endfor %}

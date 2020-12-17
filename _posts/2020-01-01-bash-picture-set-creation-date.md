@@ -4,6 +4,7 @@ category:
   - bash
   - exiftool
 author: Oliver Gaida
+version: 1
 ---
 
 # Dateidatum auf das originale Erstellungsdatum/Änderungsdatum des Bildes bzw. Videos ändern
