@@ -4,7 +4,7 @@ categories:
   - ansible
   - regex
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 # Ansible in Windows
@@ -56,4 +56,3 @@ Da kann man folgendes nehmen:
     with_items: "{{ filelist.files }}"
 ```
 
-[HOME](./)
