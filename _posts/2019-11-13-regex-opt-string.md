@@ -1,3 +1,10 @@
+---
+title:  "regex mit optionalem String"
+category: regex
+author: Oliver Gaida
+version: 1
+---
+
 # Komplettes Matching mit optionalem String
 
 Die regex soll alle Zeilen finden in denen nur "Oliver" oder "Oliver Gaida" steht. Hier die Lösung:

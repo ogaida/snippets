@@ -1,5 +1,10 @@
 ---
-title: Ansible in Windows
+title:  "remove lines in windows textfiles with ansible"
+categories: 
+  - ansible
+  - regex
+author: Oliver Gaida
+version: 1
 ---
 
 # Ansible in Windows

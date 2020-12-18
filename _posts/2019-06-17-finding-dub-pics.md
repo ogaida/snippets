@@ -1,3 +1,11 @@
+---
+title:  "try to find pictures that appear multiple times"
+category: perl
+author: Oliver Gaida
+version: 1
+---
+
+
 ```perl
 #!/usr/bin/env perl
 # https://www.heise.de/ix/artikel/Oder-so-aehnlich-1765809.html
