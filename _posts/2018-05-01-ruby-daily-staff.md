@@ -22,11 +22,3 @@ Dir["*"].each do |a|
   puts "#{a}:#{File.stat(a).size}"
 end
 ```
-
-## easy loop
-
-```ruby
-10.times do |i|
-    puts i
-end
-```
