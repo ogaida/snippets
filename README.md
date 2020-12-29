@@ -21,3 +21,4 @@ Es handelt sich hier um eine statische Website auf jekyll-BASIS. jekyll wird von
 {% endfor %}
 
 [https://snippets.schnatzefatt.de/](https://snippets.schnatzefatt.de/)
+
