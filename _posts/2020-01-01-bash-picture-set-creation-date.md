@@ -24,4 +24,4 @@ do
 done
 ```
 
-Die Konstruktion `find . -type f | while read f` macht sich gut, falls Leerzeichen in Pfad sind.
+Die Konstruktion `find . -type f | while read f` macht sich gut, falls Leerzeichen im Pfad sind.
