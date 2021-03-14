@@ -12,6 +12,8 @@ version: 1
 Nehmen wir einmal an uns interessieren die Versionen der Pakete, die in der Datei `package-lock.json` gelistet sind. Dann können wir das mit dem
 folgenden Ansible-adhoc-Kommando ermitteln:
 
+<!--{% raw %} -->
+
 ```bash
 ansible localhost -m debug -a "msg={{ lookup('file', 'package-lock.json') | from_json | json_query('dependencies.*.version') }}" | head -10
 localhost | SUCCESS => {
@@ -25,6 +27,8 @@ localhost | SUCCESS => {
         "1.0.6",
         "1.0.7",
 ```
+
+<!--{% raw %} -->
 
 Der Inhalte der Datei `package-lock.json` sieht dabei wie folgt aus:
 
