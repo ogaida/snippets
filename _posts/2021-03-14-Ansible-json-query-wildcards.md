@@ -4,7 +4,7 @@ categories:
   - ansible
   - json
 author: Oliver Gaida
-version: 2
+version: 3
 ---
 
 # Ansible json_query mit wildcards  
@@ -28,7 +28,7 @@ localhost | SUCCESS => {
         "1.0.7",
 ```
 
-<!--{% raw %} -->
+<!--{% endraw %} -->
 
 Der Inhalte der Datei `package-lock.json` sieht dabei wie folgt aus:
 
