@@ -4,7 +4,7 @@ categories:
   - ansible
   - json
 author: Oliver Gaida
-version: 3
+version: 4
 ---
 
 # Ansible json_query mit wildcards  
@@ -32,8 +32,7 @@ localhost | SUCCESS => {
 
 Der Inhalte der Datei `package-lock.json` sieht dabei wie folgt aus:
 
-```bash
-head -20 package-lock.json
+```json
 {
   "requires": true,
   "lockfileVersion": 1,
@@ -54,11 +53,12 @@ head -20 package-lock.json
       "integrity": "sha512-LXgMVUAEAzQh6WfEEOa8tJX4RA64ZJ6twC3CJ+Xzid+fXWLTZkkglagXav/eOoQgzQi5rzV0xC4Sfspd6hFDHA==",
       "requires": {
         "d3-array": "1",
+        ...
 ```
 
 Wie kommt man auf diesen Filter? 
 
-`json_query` verwendet jmespath, um die passenden Filter auszutesten bietet sich der JMESPath Terminal an, siehe [hier](https://github.com/jmespath/jmespath.terminal).
+`json_query` verwendet jmespath. Um die passenden Filter auszutesten bietet sich der JMESPath Terminal an, siehe [hier](https://github.com/jmespath/jmespath.terminal).
 
 Installieren mit:
 
