@@ -9,6 +9,8 @@ version: 1
 
 # Ansible Jinja2 Arithmetic Operations
 
+Jinja2 ist ja das Templating-System von Ansible. Von Zeit zu Zeit muss man hier auch mal rechnen. Hier demonstriere ich grundlegende Operationen, die da weiterhelfen.
+
 Ich werde eine Shell-Funktion schreiben, die uns arithmetische Funktionen in Jinja2 interpretiert. Dazu vernwenden wir das Python Module j2cli.
 
 ## j2cli
