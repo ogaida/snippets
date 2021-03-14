@@ -148,11 +148,10 @@ echo "String verdoppeln: ' 4.5 ' * 2 = $(jinja2 "' 4.5 ' * 2")"
 echo "String zu Float konvertieren und verdoppeln: (' 4.5 ' | float) * 2 = $(jinja2 "(' 4.5 ' | float) * 2")"
 ```
 
-Nun das ganze in eine Datei umleiten und in der Bash ausführen:
+Nun das ganze in der Bash ausführen:
 
 ```bash
-jq -r '.[]|"echo \"" + .op + ": " + .sample + " = $(jinja2 \"" +.sample + "\")\"" ' ops.json  > ops.sh
-bash ops.sh
+bash <(jq -r '.[]|"echo \"" + .op + ": " + .sample + " = $(jinja2 \"" +.sample + "\")\"" ' ops.json)
 Addition: 4 + 5 = 9
 Substraktion: 5 - 4 = 1
 Multiplikation: 5 * 4 = 20
