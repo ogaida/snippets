@@ -4,7 +4,7 @@ categories:
   - ansible
   - json
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 # Ansible json_query mit wildcards  
