@@ -42,6 +42,8 @@ oft dem maskieren von speziellen Zeichen. Die hier verwendete Variante schliesst
 
 Da kann man folgendes nehmen:
 
+<!--{% raw %} -->
+
 ```yaml
   - name: Dateiliste relevanter Dateien erstellen
     find:
@@ -56,3 +58,4 @@ Da kann man folgendes nehmen:
     with_items: "{{ filelist.files }}"
 ```
 
+<!--{% endraw %} -->
