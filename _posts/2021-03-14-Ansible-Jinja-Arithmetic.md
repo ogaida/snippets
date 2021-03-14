@@ -1,8 +1,8 @@
 ---
 title: "Ansible Jinja2 Arithmetic Operations"
 categories: 
-  - Ansible
-  - Jinja2
+  - ansible
+  - jinja2
 author: Oliver Gaida
 version: 1
 ---
