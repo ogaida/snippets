@@ -11,7 +11,7 @@ version: 1
 
 Jinja2 ist ja das Templating-System von Ansible. Von Zeit zu Zeit muss man hier auch mal rechnen. Hier demonstriere ich grundlegende Operationen, die da weiterhelfen.
 
-Ich werde eine Shell-Funktion schreiben, die uns arithmetische Funktionen in Jinja2 interpretiert. Dazu vernwenden wir das Python Module j2cli.
+Ich werde eine Shell-Funktion schreiben, die uns arithmetische Funktionen in Jinja2 interpretiert. Dazu verwenden wir das Python Module j2cli.
 
 ## j2cli
 
@@ -75,7 +75,7 @@ Ich erzeuge ein Json-File, das uns als Input für die arithmetischen Operationen
     "sample": "3 ** 3"
   },
   {
-    "op": "absulter Wert",
+    "op": "absoluter Wert",
     "sample": "-2 | abs"
   },
   {
