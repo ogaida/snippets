@@ -5,14 +5,16 @@ author: Oliver Gaida
 version: 1
 ---
 
-# Negation
+# Logische Operationen in Ansible
+
+## Negation
 
 ```yaml
 - shell: echo "This certainly isn't epic!"
   when: not epic
 ```
 
-# Variable gesetzt?
+## Variable gesetzt?
 
 
 ```yaml
@@ -23,7 +25,9 @@ version: 1
   when: bar is undefined
 ```
 
-als Adhoc-Kommando könnte das wie folgt aussehen:
+## Wert überprüfen
+
+Adhoc-Kommando:
 
 <!--{% raw %} -->
 
@@ -36,7 +40,7 @@ localhost | SUCCESS => {
 
 <!--{% endraw %} -->
 
-# Substring ist enthalten
+## Substring ist enthalten
 
 ```yaml
 - shell: echo "motd contains the word hi"

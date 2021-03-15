@@ -5,13 +5,15 @@ author: Oliver Gaida
 version: 1
 ---
 
+# Ansible ipaddr Beispiele
+
+## Voraussetzungen
+
 eventuell vorher das notwendige Python-Modul installieren
 
 ```bash
 python -m pip install netaddr
 ```
-
-# Ansible ipaddr Beispiele
 
 ## lokale Facts dumpen:
 
