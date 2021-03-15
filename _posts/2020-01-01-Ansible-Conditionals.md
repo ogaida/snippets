@@ -23,6 +23,19 @@ version: 1
   when: bar is undefined
 ```
 
+als Adhoc-Kommando könnte das wie folgt aussehen:
+
+<!--{% raw %} -->
+
+```bash
+ansible localhost -m debug -a 'msg="{% if 1 == 1 %}{{ \"ja\"  }}{% else %}{{ \"nein\"  }}{% endif %}"'
+localhost | SUCCESS => {
+    "msg": "ja"
+}
+```
+
+<!--{% endraw %} -->
+
 # Substring ist enthalten
 
 ```yaml
