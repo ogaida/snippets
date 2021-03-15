@@ -65,7 +65,7 @@ siehe [https://docs.ansible.com/ansible/latest/user_guide/playbooks_filters_ipad
 
 Output:
 
-```json
+```bash
 TASK [print local cidr network] **********************************
 ok: [localhost] => {
     "msg": "192.168.2.0/24"
