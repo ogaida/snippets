@@ -82,7 +82,7 @@ $ jinja2 "('&' | escape) is escaped"
 True
 ```
 
-## Teste ob Integer gerade ist
+## Teste ob ein Integer-Wert gerade ist
 
 ```bash
 $ jinja2 "1 is even"
