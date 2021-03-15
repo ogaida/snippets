@@ -23,10 +23,14 @@ python -m pip install j2cli
 
 Test
 
+<!--{% raw %} -->
+
 ```bash
 j2 <(echo "{{ 3 * 4 }}")
 12
 ```
+
+<!--{% endraw %} -->
 
 ## Test-Daten 
 
@@ -110,6 +114,8 @@ Ich erzeuge ein Json-File, das uns als Input für die arithmetischen Operationen
 
 `j2` ist in unserem Fall etwas umständlich im Verarbeiten unseres Inputs, deshalb baue ich einen kleinen wrapper drumherum.
 
+<!--{% raw %} -->
+
 ```bash
 function jinja2(){
     string=$1
@@ -117,6 +123,8 @@ function jinja2(){
 }
 export -f jinja2
 ```
+
+<!--{% endraw %} -->
 
 Test:
 
