@@ -21,9 +21,6 @@ Software Update found the following full installers:
 * Title: macOS Catalina, Version: 10.15.6, Size: 8248781171K
 * Title: macOS Mojave, Version: 10.14.6, Size: 6038419486K
 * Title: macOS High Sierra, Version: 10.13.6, Size: 5221689433K
-$ sudo /usr/sbin/softwareupdate --fetch-full-installer --full-installer-version 11.2.3 --verbose
-Scanning for 11.2.3 installer
-Installing: 14.0%
 ```
 
 dann herunterladen:
