@@ -11,7 +11,7 @@ Vorbemerkung:
 
 die verwendete `jinja2` Funktion erläutere ich in [https://snippets.schnatzefatt.de/ansible/jinja2/2021/03/14/Ansible-Jinja-Arithmetic.html](https://snippets.schnatzefatt.de/ansible/jinja2/2021/03/14/Ansible-Jinja-Arithmetic.html)
 
-## Konvetierung in Integer
+## Konvertierung in Integer
 
 Strings lassen sich mit der Funktion `int` in Integer konvertieren. Hier einige Beispiele:
 
