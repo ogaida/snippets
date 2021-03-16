@@ -7,7 +7,7 @@ version: 1
 
 # macos installer download
 
-auf eine Big Sur folgendes ausführen:
+auf einem Big Sur folgendes ausführen:
 
 ```bash
 $ sudo /usr/sbin/softwareupdate --list-full-installers
