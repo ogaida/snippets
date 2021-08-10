@@ -7,7 +7,7 @@ author: Oliver Gaida
 version: 2
 ---
 
-# ssh testen mit verschiedenen Kompinationen von Username und Passwort
+# ssh testen mit verschiedenen Kombinationen von Username und Passwort
 
 ## Voraussetzungen
 
