@@ -42,7 +42,7 @@ for user in user1 user2 user3
 do 
     for password in '123?!' '?!123'
     do 
-        expect test_ssh_login "$user" "$password" $myserver | grep -i x86 > /dev/null && echo "user:$i with password $j has been successful done"
+        expect test_ssh_login "$user" "$password" $host | grep -i x86 > /dev/null && echo "user:$i with password $j has been successful done"
     done
 done
 ```
