@@ -4,7 +4,7 @@ categories:
   - bash
   - expect
 author: Oliver Gaida
-version: 2
+version: 3
 ---
 
 # ssh testen mit verschiedenen Kombinationen von Username und Passwort
