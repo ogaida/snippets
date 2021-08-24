@@ -1,11 +1,13 @@
 ---
-title:  "Entfernen CDROMs aus allen VMS"
+title:  "Entfernen der CDROMs aus allen VMS"
 categories:
   - powercli
   - powershell
 author: Oliver Gaida
 version: 2
 ---
+
+{{ page.title }}
 
 ```powershell
 $vcenter = "my.vcenter.local"
