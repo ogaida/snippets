@@ -8,7 +8,7 @@ version: 2
 ---
 
 ```powershell
-  $vcenter = "my.vcenter.local"
+$vcenter = "my.vcenter.local"
 $credFile = ".${vcenter}.cred"
 
 # siehe https://www.vgemba.net/vmware/powershell/Saving-PowerCLI-Credentials/
