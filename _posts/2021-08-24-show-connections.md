@@ -2,7 +2,7 @@
 title: "show active conncetions"
 category: netstat
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 # Anzeigen der aktiven Netzwerkverbindungen
@@ -20,7 +20,9 @@ aktive Verbindungen nach Remote-Adressen gruppieren
 powershell:
 
 ```
-Get-NetTCPConnection | where {$_.state -like 'Established*' -or $_.state -like '*wait*'} | select RemoteAddress | sort | group RemoteAddress | select count,name | sort-object count -descending
+Get-NetTCPConnection | where {$_.state -like 'Established*' -or $_.state -like '*wait*'} `
+  | select RemoteAddress | sort | group RemoteAddress | select count,name ` 
+  | sort-object count -descending
 ```
 
 ## Linux
