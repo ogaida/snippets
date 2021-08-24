@@ -4,7 +4,7 @@ categories:
   - powercli
   - powershell
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 ```powershell
