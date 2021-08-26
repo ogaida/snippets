@@ -2,7 +2,7 @@
 title: "show active conncetions"
 category: netstat
 author: Oliver Gaida
-version: 5
+version: 6
 ---
 
 # Anzeigen der aktiven Netzwerkverbindungen
@@ -40,11 +40,11 @@ netstat -tapen
 Gruppieren nach remote Adressen:
 
 ```bash
-netstat -tapen | grep -iP  '(time_wat|establ|verbunden)' | awk '{print $5}' | awk -F: '{print $1}' | sort | uniq -c | sort -nr
+netstat -tapen | grep -iP  '(time_wait|establ|verbunden)' | awk '{print $5}' | awk -F: '{print $1}' | sort | uniq -c | sort -nr
 ```
 
 Wenn man stattdessen nur die Anzahl der established und wait-Verbindungen zählen möchte, genügt folgendes Kommando:
 
 ```bash
-netstat -tapen | grep -iP  '(time_wat|establ|verbunden)' | wc -l
+netstat -tapen | grep -iP  '(time_wait|establ|verbunden)' | wc -l
 ```
