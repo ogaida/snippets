@@ -4,7 +4,7 @@ categories:
   - macos
   - routing
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 # {{ page.title }}
@@ -56,4 +56,22 @@ Anfragen zum Subnetz 192.168.10 sollen über ppp1 gehen:
 
 ```
 sudo route add -net 192.168.10 -interface ppp1
+```
+
+alternativ geht auch:
+
+```
+networksetup -setadditionalroutes "my vpn xy" 192.168.10.0 255.255.255.0 192.168.1.1
+```
+
+Den hier verwendeten vpn Namen kann über folgendes Kommando ermitteln:
+
+```
+networksetup -listnetworkserviceorder
+```
+
+Falls man per Kommandozeile vorher noch die vpn-Verbindung aufbauen will, funktioniert das mit dem folgenden Befehl:
+
+```
+networksetup -connectpppoeservice "my vpn xy"
 ```
