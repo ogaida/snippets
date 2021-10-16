@@ -22,7 +22,7 @@ CD-Laufwerk zum Beispiel über USB
 
 Ich habe aus einem alten PC ein DVD-Brenner ausgebaut und die Anschlüsse eines alten externen Festplattengehäuses genutzt:
 
-![cd.jpg](cd.jpg)
+![https://raw.githubusercontent.com/ogaida/snippets/master/images/cd.jpg](https://raw.githubusercontent.com/ogaida/snippets/master/images/cd.jpg)
 
 ## ISO erstellen
 
