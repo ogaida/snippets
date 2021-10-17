@@ -30,4 +30,4 @@ Ich habe aus einem alten PC ein DVD-Brenner ausgebaut und die Anschlüsse eines 
 
 ## Weg der mir nicht gelungen ist:
 
-ich hatte es mit `drutils burn -audio /path/to/mp3-files` brobiert. Hier ging jedoch die Reihenfolge durcheinander. Ich habe keine Möglichkeit gefunden, die Dateien unter `drutil` sortiert schreiben zu lassen.
+ich hatte es mit `drutil burn -audio /path/to/mp3-files` probiert. Hier ging jedoch die Reihenfolge durcheinander. Ich habe keine Möglichkeit gefunden, die Dateien unter `drutil` sortiert schreiben zu lassen.
