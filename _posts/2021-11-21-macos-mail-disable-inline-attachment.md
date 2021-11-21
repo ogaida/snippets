@@ -1,10 +1,10 @@
 ---
-title: macos mail.pp - Deaktivieren der Inline Attachments
+title: macos mail.app - Deaktivieren der Inline Attachments
 categories:
   - macos
   - mail.app
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 # {{ page.title }}
