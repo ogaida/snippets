@@ -4,7 +4,7 @@ categories:
   - macos
   - mail.app
 author: Oliver Gaida
-version: 2
+version: 3
 ---
 
 # {{ page.title }}
@@ -38,3 +38,7 @@ defaults write com.apple.mail DisableInlineAttachmentViewing -bool false
 ```
 
 wieder zurücksetzen.
+
+# Screencast
+
+Das ganze könnt ihr euch auch auf youtube anschauen unter: [https://youtu.be/vjkFPsUhCaE](https://youtu.be/vjkFPsUhCaE)
