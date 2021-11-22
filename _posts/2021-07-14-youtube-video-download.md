@@ -4,12 +4,14 @@ categories:
   - bash
   - youtube
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 # {{ page.title }}
 
 ## Installation youtube-dl
+
+### Installation unter Linux bzw. Windows WSL
 
 siehe [https://github.com/ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
@@ -19,6 +21,13 @@ Letztlich einfach nur herunterladen und ausführbar machen:
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
 ```
+
+### Installation unter MacOS
+
+```bash
+brew install youtube-dl
+```
+
 
 ## Verwendung
 
