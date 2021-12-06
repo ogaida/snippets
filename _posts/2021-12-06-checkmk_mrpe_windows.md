@@ -4,7 +4,7 @@ categories:
   - windows
   - checkmk
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 # {{ page.title }}
@@ -13,7 +13,7 @@ Beispiele für checkmk mit mrpe unter Windows.
 
 ## Nagios-Konventionen für nrpe
 
-https://nagios-plugins.org/doc/guidelines.html#AEN200
+siehe [https://nagios-plugins.org/doc/guidelines.html#AEN200](https://nagios-plugins.org/doc/guidelines.html#AEN200)
 
 ## Umsetzung
 
