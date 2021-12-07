@@ -4,14 +4,14 @@ categories:
   - windows
   - checkmk
 author: Oliver Gaida
-version: 4
+version: 5
 ---
 
 # {{ page.title }}
 
 Beispiele für checkmk mit mrpe unter Windows.
 
-Den Screencast zum Beitrag findet ihr auf: [https://youtu.be/mVcZW0moi1A](https://youtu.be/mVcZW0moi1A)
+Den Screencast zum Beitrag findet ihr auf: [https://youtu.be/YGS1zpVE4gA](https://youtu.be/YGS1zpVE4gA)
 
 ## Nagios-Konventionen für nrpe
 
