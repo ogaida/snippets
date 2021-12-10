@@ -4,7 +4,7 @@ categories:
   - bash
   - youtube
 author: Oliver Gaida
-version: 2
+version: 3
 ---
 
 # {{ page.title }}
@@ -33,6 +33,9 @@ brew install youtube-dl
 
 Mit folgenden Kommandos könnte man nun ein Video herunterladen, wenn man es unbedingt offline benötigt. Das Herunterladen von Videos ist anscheinend legal, siehe [https://www.futurezone.de/digital-life/article211244737/futurezone-hilft-Ist-der-Download-von-YouTube-Videos-legal.html](https://www.futurezone.de/digital-life/article211244737/futurezone-hilft-Ist-der-Download-von-YouTube-Videos-legal.html). Verbreiten, womöglich noch kommerziell ist wahrscheinlich keine gute Idee.
 
+
+### Video Download - Best Quality
+
 Wenn man ein gefundenes Video in der bestmöglichen Qualität herunterladen will, empfiehlt sich folgendes Kommando:
 
 ```bash
@@ -48,3 +51,11 @@ sudo apt install ffmpeg
 Die Zieldatei erhält einen geeigneten Namen mit der Endung mp4.
 
 Happy watching!
+
+### Audio only
+
+Falls man nur ein mp3 aus dem Video erstellen will, genügt folgender Aufruf:
+
+```
+youtube-dl -x --audio-format mp3 https://www.youtube.com/watch?v=<VIDEO-ID>
+```
