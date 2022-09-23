@@ -2,7 +2,7 @@
 title:  "regex mit optionalem String"
 category: regex
 author: Oliver Gaida
-version: 2
+version: 3
 ---
 
 # Komplettes Matching mit optionalem String
@@ -22,6 +22,3 @@ Interessanter ist die folgende Variante, die dann auch Sinn macht, wenn die Stri
 ```
 
 Die Erläuterungen dazu kann man sich auf [regex101](https://regex101.com/) anschauen.
-
-Hallo :-)
-
