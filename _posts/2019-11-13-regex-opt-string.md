@@ -23,3 +23,5 @@ Interessanter ist die folgende Variante, die dann auch Sinn macht, wenn die Stri
 
 Die Erläuterungen dazu kann man sich auf [regex101](https://regex101.com/) anschauen.
 
+Hallo :-)
+
