@@ -2,7 +2,7 @@
 title:  "how to create multiple ssh connections in one new tmux session"
 category: tmux
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 # how to create multiple ssh connections in one new tmux session
