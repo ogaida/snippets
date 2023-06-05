@@ -9,7 +9,7 @@ version: 1
 
 # iptables - reduce number of concurrent connections
 
-the hint comes from https://unix.stackexchange.com/questions/139285/limit-max-connections-per-ip-address-and-new-connections-per-second-with-iptable
+the hint comes from [https://unix.stackexchange.com/questions/139285/limit-max-connections-per-ip-address-and-new-connections-per-second-with-iptable](https://unix.stackexchange.com/questions/139285/limit-max-connections-per-ip-address-and-new-connections-per-second-with-iptable)
 
 add the rule:
 
