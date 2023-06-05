@@ -11,7 +11,7 @@ version: 1
 
 you can see a screencast of that on [https://youtu.be/ODMQ6XAC_oM](https://youtu.be/ODMQ6XAC_oM)
 
-the hint comes from https://snippets.bentasker.co.uk/page-2010021645-Rate-limiting-connections-with-iptables-and-hashlimit-BASH.html
+the hint comes from [https://snippets.bentasker.co.uk/page-2010021645-Rate-limiting-connections-with-iptables-and-hashlimit-BASH.html](https://snippets.bentasker.co.uk/page-2010021645-Rate-limiting-connections-with-iptables-and-hashlimit-BASH.html)
 
 add the rules:
 
