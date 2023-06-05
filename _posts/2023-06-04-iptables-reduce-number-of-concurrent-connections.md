@@ -23,7 +23,7 @@ check the rules:
 iptables -S INPUT
 ```
 
-test the rule with three different web-browsers at the same time. see my youtube video https://youtu.be/zn6Gth1ELGk
+test the rule with three different web-browsers at the same time. see [my youtube video](https://youtu.be/zn6Gth1ELGk)
 
 delete the rule
 
