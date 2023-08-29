@@ -4,7 +4,7 @@ categories:
   - iptables
   - linux
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 # iptables - reduce number of concurrent connections
@@ -33,3 +33,9 @@ iptables -S INPUT
 ss -at | grep 8878
 ```
 
+in case you want to log rejected connections you can just add the same iptables-rule with the logging parameters before, for example you can insert two rules:
+
+```bash
+iptables -A INPUT -p tcp --syn --dport 8878 -m connlimit --connlimit-above 2 --connlimit-mask 32 -j LOG --log-level 6 --log-prefix to-many-concurrent-connections
+iptables -A INPUT -p tcp --syn --dport 8878 -m connlimit --connlimit-above 2 --connlimit-mask 32 -j REJECT --reject-with tcp-reset
+```
