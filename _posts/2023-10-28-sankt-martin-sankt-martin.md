@@ -1,7 +1,7 @@
 ---
 title: Sankt Martin
 category: Sankt Martin Lieder
-version: 1
+version: 2
 ---
 
 ##### 1.
