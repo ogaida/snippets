@@ -4,7 +4,7 @@ categories:
   - linux 
   - lvm
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 # linux - lvm snapshot before critical changes
