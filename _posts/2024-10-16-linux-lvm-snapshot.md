@@ -49,7 +49,9 @@ lvconvert --merge /dev/vg0/snap_initial
 # reboot the system
 # refresh lvstate:
 lvchange --refresh vg0
-# create again the original snapshot, because after merging it was deleted
+# sometimes it need some time, check with:
+lvs -a
+# create again the original snapshot, because after merging it was deleted. But wait till the merge of the old snapshot has been finished
 lvcreate -s -L 10G -n snap_initial /dev/vg0/lv-sys
 ```
 
