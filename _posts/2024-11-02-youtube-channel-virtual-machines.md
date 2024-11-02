@@ -1,13 +1,13 @@
 ---
-title:  youtube channel virtuel machines
+title:  youtube channel virtual machines
 categories: 
   - linux 
   - youtube
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
-# youtube channel virtuel machines
+# youtube channel virtual machines
 
 | date       | name                                             | short description                           | link                                                                                       |
 | ---------- | ------------------------------------------------ | ------------------------------ | ------------------------------------------------------------------------------------------ |
