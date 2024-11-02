@@ -4,7 +4,7 @@ categories:
   - linux 
   - youtube
 author: Oliver Gaida
-version: 4
+version: 5
 ---
 
 # youtube channel - virtual machines
@@ -19,6 +19,6 @@ in 4 Minutes ...
 - setup user and openssh-server
 - enjoy
 
-Script: https://gist.github.com/ogaida/b0aecd901fd439e16ffae95739bf3015
+Script: [https://gist.github.com/ogaida](https://gist.github.com/ogaida/b0aecd901fd439e16ffae95739bf3015)
 
 {% include youtube.html id="foZx5fECBFo" %}
