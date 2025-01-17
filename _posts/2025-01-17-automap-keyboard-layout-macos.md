@@ -2,12 +2,12 @@
 title: "automap keyboard-layout on macos"
 category: macos
 author: Oliver Gaida
-version: 2
+version: 3
 ---
 
 # automap keyboard-layout on macos
 
-see https://github.com/ohueter/autokbisw
+see [https://github.com/ohueter/autokbisw](https://github.com/ohueter/autokbisw)
 
 switches the keyboard layout when the keyboard is used automaticly.
 
