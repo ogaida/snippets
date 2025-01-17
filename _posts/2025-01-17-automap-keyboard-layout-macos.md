@@ -24,9 +24,9 @@ brew services start autokbisw
 
 allow access
 
-![alt text](images/macos-kb-l-0.png)
+![alt text](https://snippets.schnatzefatt.de/images/macos-kb-l-0.png)
 
-![alt text](images/macos-kb-l-1.png)
+![alt text](https://snippets.schnatzefatt.de/images/macos-kb-l-1.png)
 
 ```bash
 autokblist clear
