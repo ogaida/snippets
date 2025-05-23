@@ -2,7 +2,7 @@
 title: "powershell - show listen ports of processes"
 category: powershell
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 # powershell - show listen ports of processes
@@ -60,3 +60,16 @@ Explaination:
 - `Get-NetTCPConnection -State Listen` gets the listen processes without processnames
 - `@{'Name' = 'ProcessName';'Expression'={(Get-Process -Id $_.OwningProcess).Name}}` adds an output attribute with the name `ProcessName` with the value of the inner Command `(Get-Process -Id $_.OwningProcess).Name`, which is the desired processname.
 - `$_` is the current object-instance of the tcp-connection 
+
+
+# special command to list uniq services with count which connect to a remote port 1433
+
+```powershell
+Get-NetTCPConnection | where-object { $_.RemotePort -eq '1433' } `
+	| Select-Object -Property *, `
+	@{'Name' = 'ProcessName';'Expression'={(Get-Process -Id $_.OwningProcess).Name}} `
+	| select ProcessName, RemoteAddress `
+	| Group-Object -property ProcessName, RemoteAddress -NoElement `
+	| Select-Object -Property Count, Name `
+	| sort-object -property Count
+```
