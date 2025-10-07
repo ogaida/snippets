@@ -2,7 +2,7 @@
 title: ubuntu release upgrade
 category: ubuntu
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 ## Vorbereitung
