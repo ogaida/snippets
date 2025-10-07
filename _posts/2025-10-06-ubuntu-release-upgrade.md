@@ -31,5 +31,5 @@ apt full-upgrade
 	apt full-upgrade
 reboot
 # Paket locking wieder aufheben:
-	apt-mark hold <package>
+	apt-mark unhold <package>
 ```
