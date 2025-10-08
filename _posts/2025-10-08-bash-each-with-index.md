@@ -2,10 +2,8 @@
 title: bash - each with index
 category: bash
 author: Oliver Gaida
-version: 1
+version: 2
 ---
-
-## Vorbereitung
 
 ```bash
 arr=(ab cd xy)
