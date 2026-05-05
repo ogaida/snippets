@@ -3,7 +3,7 @@ title:  changed_when - idempotency
 categories:
 - ansible 
 author: Oliver Gaida
-version: 1
+version: 2
 ---
 
 Question: How to ensure idempotency in ansible tasks with shell module?
